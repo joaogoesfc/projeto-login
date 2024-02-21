@@ -1,2 +1,81 @@
 @charset "UTF-8";
 
+/*Mobile first*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0A6073;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+    width: 250px;
+}
+
+section#login > div#imagem {
+    display: block;
+    background-image: url(../imagens/imagem.jpg);
+    height: 200px;
+    background-size: cover;
+
+    border-radius: 15px 15px 0px 0px;
+}
+
+section#login > div#formulario {
+    background-color: white;
+    line-height: 1.2em;
+    padding: 5px;
+    
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+section#login > div#formulario > h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+section#login > div#formulario > p {
+    font-size: 13px;
+    margin-left: 13px;
+    
+}
+section#login > div#formulario > form {
+    text-align: center;
+}
+
+section#login > div#formulario > form p {
+    background-color: #914c91;
+    margin: 5px 12px;
+    padding: 2px 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.botao {
+    padding: 10px 60px;
+
+}
+
+
+

@@ -8,15 +8,28 @@
 </head>
 <body>
     <main>
-        <section id="Login">
+        <section id="login">
             <div id="imagem">
-
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta.</p>
+                <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
-                    
+
+                    <p class="info">
+                        <label for="nome">ico</label>
+                        <input type="email" name="nome" id="nome" placeholder="seu e-mail" required>
+                    </p>
+                    <p class="info">
+                        <label for="senha">ico</label>
+                        <input type="password" name="senha" id="senha" placeholder="sua senha" minlength="8" maxlength="15" required>
+                    </p>
+                    <p id>
+                        <input class="botao" type="submit" value="Entrar">
+                    </p>
+                    <p>
+                        <input class="botao" type="reset" value="Esqueci a senha">
+                    </p>
                 </form>
 
             </div>
